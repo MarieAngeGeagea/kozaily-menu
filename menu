@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Menu</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    embed {
+      width: 90%;
+      height: 90vh;
+    }
+  </style>
+</head>
+<body>
+  <embed src="KOZAILY DIGITAL MENU 2.pdf" type="application/pdf">
+</body>
+</html>
