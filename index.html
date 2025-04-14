@@ -31,34 +31,27 @@
   <style>
     body {
       margin: 0;
-      padding: 0;
-      text-align: center;
-      font-family: sans-serif;
-      background-color: #f9f9f9;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fdfdfd;
+      font-family: Arial, sans-serif;
     }
-    .pdf-wrapper {
-      margin-top: 20px;
-    }
-    embed {
-      width: 90%;
-      height: 90vh;
-    }
-    .button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
+    a.button {
+      padding: 15px 25px;
       background-color: #222;
       color: white;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 6px;
+      font-size: 18px;
+    }
+    a.button:hover {
+      background-color: #444;
     }
   </style>
 </head>
 <body>
-  <h1>View Our Menu</h1>
-  <div class="pdf-wrapper">
-    <embed src="KOZAILY DIGITAL MENU 2.pdf" type="application/pdf">
-  </div>
   <a class="button" href="KOZAILY DIGITAL MENU 2.pdf" target="_blank">Open Full Menu</a>
 </body>
 </html>
